@@ -1145,6 +1145,9 @@ if ($('#dt_EmployeeLeave').length) {
 		lengthChange: false,
 		info: false,
 		paging: false,
+// added code by steve to disabkle ordering
+		ordering:false,
+// this is it
 		scrollCollapse: true,
 		scrollY: '300px',
 		language: {

@@ -364,7 +364,7 @@ const ThemeSwitcher = () => {
 	const getPreferredTheme = () => {
 		const storedTheme = getStoredTheme();
 		if (storedTheme) return storedTheme;
-		return window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
+		return window.matchMedia('(prefers-color-scheme: light)').matches ? 'dark' : 'light';
 	};
 
 	// Apply the theme to <html data-bs-theme="...">
